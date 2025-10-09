@@ -1,0 +1,82 @@
+:root {
+  --pr-hijau: #048853;
+}
+body {
+  font-family: "Poppins";
+  background-color: #e5e5e5;
+}
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.accent-banner{
+    z-index: 1;
+}
+/* navbarstyle */
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-link.active {
+  font-size: 16px;
+  font-weight: 700;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn2 {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #048853;
+}
+.btn {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+/* navbar end */
+/* style hero */
+#hero {
+  background: linear-gradient(160deg, var(--pr-hijau), black);
+  height: 100vh;
+}
+/* style end */
+.text-hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 70px;
+}
+.text-hero p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  width: 80%;
+}
+.btn-lg {
+  width: 237px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fff;
+  color: var(--pr-hijau);
+  border: none;
+}
+/* layanan */
+#our-service{
+    height: 100vh;
+}
+/* end lay */
