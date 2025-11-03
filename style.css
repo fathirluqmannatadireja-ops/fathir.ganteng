@@ -39,7 +39,7 @@ body {
   font-weight: 700;
   color: var(--pr-hijau);
 }
-.btn2{
+.btn2 {
   width: 133px;
   height: 40px;
   background-color: transparent;
@@ -88,8 +88,8 @@ body {
   width: 100%;
 }
 h1 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 45px;
+  font-weight: 600;
   color: var(--pr-hijau);
 }
 p {
@@ -158,36 +158,118 @@ p {
   line-height: 70px;
   padding-top: 100px;
 }
-.rumahhemster{
-    font-size: 28px;
+.rumahhemster {
+  font-size: 28px;
   font-weight: 400;
   color: #fff;
 }
 /* end rumah */
-.btn-tab{
+.btn-tab {
   height: 42px;
- color: black;
- background-color: rgb(255, 255, 255, 0.5);
-border: none;
-padding: 10px 20px;
-font-size: 18px;
-font-weight: 400;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.jual{
+.jual {
   border-top-left-radius: 10px;
 }
-.property{
+.property {
   border-top-right-radius: 10px;
 }
 
-.btn-tab.active{
+.btn-tab.active {
   height: 42px;
- color:var(--pr-hijau);
- background-color: rgb(255, 255, 255);
-border: none;
-padding: 10px 20px;
-font-size: 18px;
-font-weight: 400;
-transition: all 0.3s ease-in;
+  color: var(--pr-hijau);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s ease-in;
 }
+.input-group {
+  height: 89px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0px 0px 0px 10px;
+}
+.btn-cari {
+  
+  width: 135px;
+  height: 100%;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  background-color: var(--pr-hijau);
+}
+
+.btn-search {
+  width: 200px;
+  border: none;
+  background-color:transparent;
+  color: var(--pr-hijau);
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  border-right: #fff;
+}
+.nav-tabs{
+  border: none;
+}
+.form-control{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.form-control::placeholder{
+  color: var(--pr-hijau);
+}
+.form-control:focus{
+  box-shadow: 1px 1px 5px 1px #048853 ;
+  color: var(--pr-hijau);
+}
+
+/* rekomen rmh */
+#rekomendasi{
+ margin: 60px;
+}
+.card-rek{
+  height: 489px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+margin-top: 20px;
+}
+.card-rek:hover{
+  background-color: var(--pr-hijau);
+  transition: 0.5s ease;
+}
+.card-gbr{
+  height: 280px;
+  
+}
+.IDR{
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.jl{
+  font-size: 14px;
+  font-weight: 400;
+}
+.fasilitas{
+  height: 67px;
+ 
+}
+.sub-fasi{
+  font-size: 12px;
+  font-weight: 400;
+}
+.row{
+  padding: 10px;
+  margin: 15px;
+}
+/* end rmh */
