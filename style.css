@@ -232,44 +232,42 @@ p {
   color: var(--pr-hijau);
 }
 
-/* rekomen rmh */
-#rekomendasi{
- margin: 60px;
+.card{
+  height: 460px;
+  border: none;
 }
-.card-rek{
-  height: 489px;
-  width: 350px;
-  background-color: #fff;
-  border-radius: 5px;
-margin-top: 20px;
-}
-.card-rek:hover{
-  background-color: var(--pr-hijau);
-  transition: 0.5s ease;
-}
-.card-gbr{
-  height: 280px;
-  
-}
-.IDR{
+.card-body h4{
   font-size: 24px;
-  font-weight: 600;
-  color: #000;
+  font-weight: 500;
+  line-height: 0.8rem;
 }
-.jl{
+.card-body p{
   font-size: 14px;
   font-weight: 400;
 }
-.fasilitas{
-  height: 67px;
- 
+.card-fasilitas{
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  padding: 10px;
+
 }
-.sub-fasi{
+.card-fasilitas p{
   font-size: 12px;
   font-weight: 400;
 }
-.row{
-  padding: 10px;
-  margin: 15px;
+.card:hover{
+  background:linear-gradient(160deg, var(--pr-hijau),#05b46e);
 }
-/* end rmh */
+.card:hover .card-body h4{
+  color: #fff;
+}
+.card:hover .card-body p{
+  color:white ;
+}
+.card:hover .card-fasilitas{
+  background-color: #fff;
+}
